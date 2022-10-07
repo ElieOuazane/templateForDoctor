@@ -1,0 +1,50 @@
+*{
+    direction: rtl;
+}
+form{
+    background-color:#fbc799;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: transparent;
+}
+.wrapper{
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid 1px #ffe6e6 ;
+    height: 130px;
+}
+.title-wrapper{
+    background-color: #fff;
+    height: 200px;
+    border-top: 10px solid coral;
+    border-radius: 10px;
+}
+span{
+    color: red;
+}
+.data-from-google{
+    display: flex;
+    justify-content: space-between;
+}
+.using-canabic{
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid 1px #ffe6e6 ;}
+.recommend-doctor{
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid 1px #ffe6e6 ;
+}
+.sub{
+    background-color: rgb(42, 26, 26);
+
+}
