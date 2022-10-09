@@ -132,24 +132,24 @@
         </div>
 
         <div class="container using-canabic">
-          <label for="exampleInputEmail1"
+          <label
             >להוסיף "מבחינה קרדיאולוגית אין מניעה לשימוש בקנביס רפואי" ?
           </label>
           <div>
             <input
               type="radio"
-              id="use-canabic"
-              name="canabic-true"
-              value="HTML"
+              id="canabic-true"
+              name="use-canabic"
+              value="true"
             />
             <label for="canabic-true">כן</label>
           </div>
           <div>
             <input
               type="radio"
-              id="use-canabic"
-              name="canabic-false"
-              value="HTML"
+              id="canabic-false"
+              name="use-canabic"
+              value="false"
             />
             <label for="canabic-false">לא</label>
           </div>
@@ -161,7 +161,12 @@
           <div class="col-12">
             <div style="display: flex">
               <div style="width: 10%">
-                <input type="radio" id="recommend-doc-yes" />
+                <input
+                  type="radio"
+                  id="recommend-doc-yes"
+                  name="rec-doctor"
+                  value="true"
+                />
                 <label for="recommend-doc-yes">כן</label>
               </div>
 
@@ -172,10 +177,15 @@
             </div>
           </div>
 
-          <div class="col-12" >
+          <div class="col-12">
             <div style="display: flex">
               <div style="width: 10%">
-                <input type="radio" id="recommend-doc-non" />
+                <input
+                  type="radio"
+                  id="recommend-doc-non"
+                  name="rec-doctor"
+                  value="true"
+                />
                 <label for="recommend-doc-non">לא</label>
               </div>
 
@@ -184,12 +194,16 @@
               </div>
             </div>
           </div>
-          <div role="button" style="width: 15%; margin-right: auto; margin-left: 0;"><span>ניקוי הבחירה</span></div>
-
+          <div
+            role="button"
+            style="width: 15%; margin-right: auto; margin-left: 0"
+          >
+            <span>ניקוי הבחירה</span>
+          </div>
         </div>
 
-        <div style="display:flex; justify-content: space-between;">
-          <div><input type="submit" id="sub-btn"/></div>
+        <div style="display: flex; justify-content: space-between">
+          <div><input type="submit" id="sub-btn" /></div>
           <div role="button"><span>ניקוי הטופס</span></div>
         </div>
       </div>
