@@ -17,7 +17,6 @@ label {
   margin: 10px;
   padding-bottom: 10px;
   border-radius: 10px;
-  border: solid 1px #ffe6e6;
 }
 .title-wrapper {
   border-top: 10px solid coral;
@@ -26,6 +25,8 @@ label {
 }
 .innerWrapper{
   background-color: #fff;
+  border: solid 1px #ffe6e6;
+
 }
 span {
   color: red;
