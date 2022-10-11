@@ -1,0 +1,45 @@
+* {
+  direction: rtl;
+  margin: 0%;
+  padding: 0%;
+}
+form {
+  background-color: #fbc799;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.container {
+  margin: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+.title-wrapper {
+  border-top: 10px solid red;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.innerWrapper {
+  background-color: #fff;
+  border: solid 1px #ffe6e6;
+}
+span {
+  color: red;
+}
+#sub-btn {
+  background-color: red;
+  border-radius: 10px;
+  padding: 15%;
+  color: #fff;
+  border: none;
+}
+input[type="radio"] {
+  margin-left: 10%;
+  height: 1rem;
+  width: 1rem;
+}
+
