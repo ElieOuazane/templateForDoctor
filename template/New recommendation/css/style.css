@@ -19,14 +19,13 @@ label {
   border-radius: 10px;
 }
 .title-wrapper {
-  border-top: 10px solid coral;
+  border-top: 10px solid red;
   border-radius: 10px;
   background-color: #fff;
 }
-.innerWrapper{
+.innerWrapper {
   background-color: #fff;
   border: solid 1px #ffe6e6;
-
 }
 span {
   color: red;
@@ -34,7 +33,13 @@ span {
 #sub-btn {
   background-color: red;
   border-radius: 10px;
-  padding: 10%;
+  padding: 15%;
   color: #fff;
   border: none;
 }
+input[type="radio"] {
+  margin-left: 10%;
+  height: 1rem;
+  width: 1rem;
+}
+

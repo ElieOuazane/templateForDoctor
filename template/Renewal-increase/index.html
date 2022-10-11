@@ -19,7 +19,7 @@
     <form action="">
       <div class="container col-lg-8">
         <div class="container title-wrapper">
-          <h1>המלצה חדשה (ד"ר אגרנוב)</h1>
+          <h1>  טופס חידוש או הגדלה (ד"ר אגרנוב)</h1>
           <hr />
         </div>
 
@@ -36,7 +36,7 @@
         </div>
 
         <div class="container innerWrapper">
-          <label for="name">שם מלא <span>*</span></label>
+          <label for="name">שם  <span>*</span></label>
           <input
             type="text"
             class="form-control"
@@ -48,7 +48,7 @@
         </div>
 
         <div class="container innerWrapper">
-          <label for="ID">ת.ז <span>*</span></label>
+          <label for="ID">ת.ז.<span>*</span></label>
           <input
             type="text"
             class="form-control"
@@ -72,7 +72,7 @@
         </div>
 
         <div class="container innerWrapper">
-          <label for="number">נייד <span>*</span></label>
+          <label for="number">מינון נוכחי <span>*</span></label>
           <input
             type="text"
             class="form-control"
@@ -84,7 +84,8 @@
         </div>
 
         <div class="container innerWrapper">
-          <label for="HMO">קופ"ח</label>
+          <label for="HMO">במקרה   בהגדלת מינון נא לרשום כאן
+          </label>
           <input
             type="text"
             class="form-control"
@@ -95,104 +96,11 @@
           />
         </div>
 
-        <div class="container innerWrapper">
-          <label for="Reference">סיבת הפניה <span>*</span></label>
-          <textarea
-            class="form-control"
-            id="Reference"
-            aria-describedby="reasonOfReferral"
-            placeholder="התשובה שלך"
-            rows="auto"
-            required
-          ></textarea>
-        </div>
-
-        <div class="container innerWrapper">
-          <label for="employment">תעסוקה <span>*</span></label>
-          <textarea
-            class="form-control"
-            id="employment"
-            aria-describedby="yourEmployment"
-            placeholder="התשובה שלך"
-            rows="auto"
-            required
-          ></textarea>
-        </div>
-
-        <div class="container innerWrapper using-canabic">
-          <label
-            >להוסיף "מבחינה קרדיאולוגית אין מניעה לשימוש בקנביס רפואי" ?
-          </label>
-          <div>
-            <input
-              type="radio"
-              id="canabic-true"
-              name="use-canabic"
-              value="true"
-            />
-            <label for="canabic-true">כן</label>
-          </div>
-          <div>
-            <input
-              type="radio"
-              id="canabic-false"
-              name="use-canabic"
-              value="false"
-            />
-            <label for="canabic-false">לא</label>
-          </div>
-        </div>
-
-        <div class="container innerWrapper recommend-doctor">
-          <label> תוכנית והמלצות </label>
-
-          <div class="col-12">
-            <div style="display: flex">
-              <div style="width: 10%">
-                <input
-                  type="radio"
-                  id="recommend-doc-yes"
-                  name="rec-doctor"
-                  value="true"
-                />
-                <label for="recommend-doc-yes">כן</label>
-              </div>
-
-              <div style="width: 90%">
-                ממליץ על טיפול בקנאביס רפואי - 30 גרם לחודש, תפרחת, BLEND,
-                בתרכובת T20C4, ומעקב פסיכיאטרי סדיר בטיפולי למשך שנה.
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12">
-            <div style="display: flex">
-              <div style="width: 10%">
-                <input
-                  type="radio"
-                  id="recommend-doc-non"
-                  name="rec-doctor"
-                  value="true"
-                />
-                <label for="recommend-doc-non">לא</label>
-              </div>
-
-              <div style="width: 90%; margin: auto">
-                <input style="width: 100%" type="text" />
-              </div>
-            </div>
-          </div>
-          <div
-            role="button"
-            style="width: 20%; margin-right: auto; margin-left: 0"
-          >
-            <span>ניקוי הבחירה</span>
-          </div>
-        </div>
+       
 
         <div style="display: flex; justify-content: space-between">
           <div><input type="submit" id="sub-btn" /></div>
-          <div role="button"><span>ניקוי הטופס</span></div>
+          <div role="button"><span style="color:#057598;">ניקוי הטופס</span></div>
         </div>
       </div>
     </form>

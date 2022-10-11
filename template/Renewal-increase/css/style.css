@@ -4,7 +4,7 @@
   padding: 0%;
 }
 form {
-  background-color: #fbc799;
+  background-color: #aae4f6;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -17,10 +17,9 @@ label {
   margin: 10px;
   padding-bottom: 10px;
   border-radius: 10px;
-  border: solid 1px #ffe6e6;
 }
 .title-wrapper {
-  border-top: 10px solid coral;
+  border-top: 10px solid #057598;
   border-radius: 10px;
   background-color: #fff;
 }
@@ -31,9 +30,9 @@ span {
   color: red;
 }
 #sub-btn {
-  background-color: red;
+  background-color: #057598;
   border-radius: 10px;
-  padding: 10%;
+  padding: 15%;
   color: #fff;
   border: none;
 }
